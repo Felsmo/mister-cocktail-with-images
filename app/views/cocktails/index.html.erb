@@ -4,6 +4,16 @@
   <%= link_to "Create a cocktail", new_cocktail_path, class: "btn btn-primary" %>
 </div>
 
+<div><!-- app/views/pages/home.html.erb -->
+<%= cl_image_tag("san_francisco.jpg",
+      width: 400, height: 300, crop: :fill) %>
+
+<!-- for face detection -->
+<%= cl_image_tag("san_francisco.jpg",
+      width: 400, height: 300, crop: :thumb, gravity: :face) %>
+
+      </div>
+
 <div class="container">
   <div class="row">
     <% @cocktails.each do |cocktail| %>
