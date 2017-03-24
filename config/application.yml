@@ -1,6 +1,6 @@
 # Add configuration values here, as shown below.
 #
-# pusher_app_id: "2954"
+CLOUDINARY_URL: "cloudinary://913168829331831:An4btyzPMQ53I7_2uv0dZlWJKlc@images-images"
 # pusher_key: 7381a978f7dd7f9a1117
 # pusher_secret: abdc3b896a0ffb85d373
 # stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r

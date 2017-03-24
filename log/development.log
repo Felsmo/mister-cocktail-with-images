@@ -4535,3 +4535,11 @@ Processing by CocktailsController#index as HTML
 Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/cocktails" for ::1 at 2017-03-24 12:33:07 +0100
+Processing by CocktailsController#index as HTML
+  Rendering cocktails/index.html.erb within layouts/application
+  [1m[36mCocktail Load (0.7ms)[0m  [1m[34mSELECT "cocktails".* FROM "cocktails"[0m
+  Rendered cocktails/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 45ms (Views: 38.8ms | ActiveRecord: 0.7ms)
+
+
